@@ -32,8 +32,12 @@ This repository contains code and data for analyzing bicycle crashes in Chicago,
 ## Results Summary
 - Owned vs. Rental Crashes: 6,574 vs. 122 (98.2% vs. 1.8%).
 - Rental Breakdown: classic (54%), electric (43%), others (3%).
+- More and more accidents occur as time goes by.
+  ![image](https://github.com/user-attachments/assets/9482d547-124b-489d-aea6-bd201a99205e)
+- Private-owned bikes and rental bikes show different peak crash times by hour
+  ![image](https://github.com/user-attachments/assets/52979dbb-a3a5-4782-bbaa-6300a907efe7)
 - Regression: Age vs. No‑Injury Rate shows a negative slope (~–0.005 per year), p < 0.01, R² ≈ 0.40.
- ![image](https://github.com/user-attachments/assets/d26019fa-ff59-4c4a-9afb-1dfc59c8b8f4)
- ![image](https://github.com/user-attachments/assets/a14f5f67-d3dd-4b2e-9cd2-e7bdc0ede196)
+   ![image](https://github.com/user-attachments/assets/d26019fa-ff59-4c4a-9afb-1dfc59c8b8f4)
+   ![image](https://github.com/user-attachments/assets/a14f5f67-d3dd-4b2e-9cd2-e7bdc0ede196)
 - Spatial KDE: distinct high-crash hotspots mapped for owned and rental bikes.
-![image](https://github.com/user-attachments/assets/1e5e6843-31b8-403e-8dcf-8b64ae2ec521)
+  ![image](https://github.com/user-attachments/assets/1e5e6843-31b8-403e-8dcf-8b64ae2ec521)
