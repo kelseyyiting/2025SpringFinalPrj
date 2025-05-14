@@ -24,7 +24,7 @@ This repository contains code and data for analyzing bicycle crashes in Chicago,
 ## Running the Analysis
 1. Data Preparation & Descriptive StatisticsOpen finalprj.ipynb and run cells for data loading, cleaning, and initial summaries.
 2. Time‑Series & Regression
-  - Monthly and hourly trends plots
+  - hourly trends plots
   - Regression of age vs. no‑injury rate (slopes, p‑values, R²)
 3. Hotspot MappingExecute scripts/hotspot_analysis.py to generate KDE contour maps for owned vs. rental crashes.
 4. SlidesThe presentation in slides/Analysis of Bicycle Accident Patterns in Chicago.pptx summarizes motivation, methods, results, and demo plan.
@@ -32,6 +32,7 @@ This repository contains code and data for analyzing bicycle crashes in Chicago,
 ## Results Summary
 - Owned vs. Rental Crashes: 6,574 vs. 122 (98.2% vs. 1.8%).
 - Rental Breakdown: classic (54%), electric (43%), others (3%).
-- Monthly Peaks: both types peak in summer months.
 - Regression: Age vs. No‑Injury Rate shows a negative slope (~–0.005 per year), p < 0.01, R² ≈ 0.40.
+- ![image](https://github.com/user-attachments/assets/d26019fa-ff59-4c4a-9afb-1dfc59c8b8f4)
+- ![image](https://github.com/user-attachments/assets/a14f5f67-d3dd-4b2e-9cd2-e7bdc0ede196)
 - Spatial KDE: distinct high-crash hotspots mapped for owned and rental bikes.
