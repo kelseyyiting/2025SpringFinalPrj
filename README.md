@@ -21,10 +21,10 @@ This repository contains code and data for analyzing bicycle crashes in Chicago,
 - statsmodels, scipy
 - contextily (for basemap)
 
-##Running the Analysis
+## Running the Analysis
 1. Data Preparation & Descriptive StatisticsOpen finalprj.ipynb and run cells for data loading, cleaning, and initial summaries.
 2. Time‑Series & Regression
-- Monthly and hourly trends plots
-- Regression of age vs. no‑injury rate (slopes, p‑values, R²)
+  - Monthly and hourly trends plots
+  - Regression of age vs. no‑injury rate (slopes, p‑values, R²)
 3. Hotspot MappingExecute scripts/hotspot_analysis.py to generate KDE contour maps for owned vs. rental crashes.
 4. SlidesThe presentation in slides/Analysis of Bicycle Accident Patterns in Chicago.pptx summarizes motivation, methods, results, and demo plan.
