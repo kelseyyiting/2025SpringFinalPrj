@@ -12,4 +12,11 @@ This repository contains code and data for analyzing bicycle crashes in Chicago,
 
 - Traffic Crashes – People (2022–2024): crash records with information about the people involved. https://data.cityofchicago.org/Transportation/Traffic-Crashes-Crashes/85ca-t3if/about_data
 - Traffic Crashes - Crashes(2022-2024): crash records with detailed location and description. https://data.cityofchicago.org/Transportation/Traffic-Crashes-Crashes/85ca-t3if/about_data
-- Divvy Trip Data: sample Divvy ridership records https://divvybikes.com/system-data
+- Divvy Trip Data: Divvy ridership records https://divvybikes.com/system-data
+
+## Key Python packages:
+pandas, numpy, geopandas
+matplotlib, seaborn
+scikit-learn
+statsmodels, scipy
+contextily (for basemap)
